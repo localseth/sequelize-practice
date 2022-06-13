@@ -59,6 +59,7 @@ module.exports = (sequelize) => {
   }, {
     modelName: 'movie',
     tableName: 'top_movies_of_all_time',
+    paranoid: true,
     sequelize
   });
 
